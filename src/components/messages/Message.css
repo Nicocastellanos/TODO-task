@@ -1,0 +1,26 @@
+.empty{
+    margin-top: 100px;
+}
+.empty-title{
+    font-family: "Inter", sans-serif;
+    color: rgb(218, 210, 210);
+    text-align: center;
+    font-size: 60px;
+}
+.empty-description{
+    font-family: "Inter", sans-serif;
+    color: rgb(218, 210, 210);
+    text-align: center;
+    font-size: 20px;
+}
+.todo{
+    font-family: "Inter", sans-serif;
+    background: linear-gradient(90deg, rgb(46, 53, 150) 16%, rgb(61, 66, 212) 36%, rgb(117, 60, 221) 62%, rgba(69,42,195,1) 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.loading{
+    margin: 200px 0 0 850px;
+}

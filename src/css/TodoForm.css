@@ -1,0 +1,94 @@
+.modal-background{
+    background-color: rgb(27, 23, 53);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    opacity: 98%;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 48px;
+    border-radius: 1rem;
+}
+label{
+    font-family: "Inter", sans-serif;
+    color: rgb(27, 28, 41);
+    font-size: 40px;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.span-form{
+    text-align: center;
+    background: linear-gradient(90deg, rgb(46, 53, 150) 16%, rgb(61, 66, 212) 36%, rgb(117, 60, 221) 62%, rgba(69,42,195,1) 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+.button-container{
+    margin-top: 20px;
+}
+.cancel-todo{
+    border: none;
+    background-color: transparent;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    margin-right: 160px;
+    cursor: pointer;
+    padding: 12px;
+}
+.add-todo{
+    padding: 12px;
+    font-size: 20px;
+    font-family: "Inter", sans-serif;
+    background-color: rgb(57, 44, 117);
+    color: rgb(216, 207, 207);
+    border: none;
+    border-radius: 0rem;
+    transition: border-radius 0.3s ease-in-out;
+    cursor: pointer;
+}
+.add-todo:hover{
+    border-radius: 1rem;
+    transition: border-radius 0.3s ease;
+}
+textarea{
+    height: 100px;
+    border-radius: 0rem;
+    border: none;
+    transition: border-radius 0.3s ease-in-out;
+    background-color: rgb(223, 224, 241);
+    padding: 8px;
+    margin-top: 12px;
+}
+textarea, placeholder{
+    color: rgb(47, 41, 128);
+    display: flex;
+    text-align: center;
+    font-size: 30px;
+    font-family: "Inter", sans-serif;
+    width: calc(100% - 25px);
+}
+textarea:hover{
+    border-radius: 1rem;
+    border: none;
+    transition: border-radius 0.3s ease;
+}
+.alert{
+    font-size: 14px;
+    margin-top: 12px;
+    color: red;
+    font-family: "Inter", sans-serif;
+}
