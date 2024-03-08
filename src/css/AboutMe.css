@@ -1,0 +1,60 @@
+.about-box{
+    display: grid;
+    place-content: center;
+}
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(21, 21, 24);
+    border-radius: 1rem;
+    width: 400px;
+    height: 620px;
+    margin-top: 100px;
+}
+.name{
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    color: rgb(191, 187, 209);
+    padding-top: 40px;
+    font-size: 28px;
+}
+.link{
+    text-decoration: none;
+    color: rgb(191, 187, 209);
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+}
+.p{
+    background-color: rgb(36, 36, 41);
+    padding: 18px;
+    width: 300px;
+    text-align: center;
+    border-radius: 1rem;
+    transition: all 0.5s ease-in-out;
+    margin-top: 25px;
+}
+.p:hover{
+    cursor: pointer;
+    background-color: rgb(69, 69, 78);
+    transition: all 0.3s ease;
+}
+.profession{
+    font-family: "Inter", sans-serif;
+    background: linear-gradient(90deg, rgb(122, 130, 238) 16%, rgb(96, 101, 255) 36%, rgb(117, 60, 221) 62%, rgb(122, 94, 248) 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 18px;
+}
+.link-pages{
+    text-decoration: none;
+    color: rgb(191, 187, 209);
+    font-size: 18px;
+    font-family: "Inter", sans-serif;
+}
+img{
+    width: 100px;
+    border-radius: 50%;
+}

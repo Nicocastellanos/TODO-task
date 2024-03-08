@@ -1,0 +1,26 @@
+.buttonTodo{
+    display: flex;
+    justify-content: flex-end;
+    margin: 50px 40px 0 0;
+  }
+  .button{
+      padding: 30px;
+      border-radius: 50rem;
+      width: 74px;
+      height: 74px;
+      background: rgb(41, 72, 158);
+      cursor: pointer;
+      color: white;
+      font-weight: bold;
+      font-size: 50px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transform: rotate(0);
+      transition: .3s ease;
+      z-index: 1;
+  }
+  .button:hover{
+      background-color: rgb(129, 136, 241);
+      transform: rotate(224deg);
+  }

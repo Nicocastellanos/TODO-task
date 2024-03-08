@@ -1,0 +1,79 @@
+
+body{
+    margin: 0;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(36,25,66,1) 49%, rgba(20,39,97,1) 100%);
+}
+.counterTodo{
+    font-size: 30px;
+    text-align: center;
+    color: rgb(245, 239, 239);
+    margin-top: 100px;
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+}
+.counterNumber{
+    background: linear-gradient(90deg, rgb(46, 53, 150) 16%, rgb(61, 66, 212) 36%, rgb(117, 60, 221) 62%, rgba(69,42,195,1) 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 40px;
+    font-weight: 900;
+}
+.todo-title{
+    text-align: center;
+    background: linear-gradient(90deg, rgb(46, 53, 150) 16%, rgb(61, 66, 212) 36%, rgb(117, 60, 221) 62%, rgba(69,42,195,1) 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    font-size: 5em;
+    font-family: "Inter", sans-serif;
+    font-weight: 800;
+}
+.input{
+    border: none;
+    border-bottom: 1px solid black;
+    padding: 12px;
+    background-color: transparent;
+    width: 500px;
+    text-align: center;
+    font-size: 20px;
+    transition: all 1s ease;
+    color: white;
+}
+.input:hover{
+    border-color: aliceblue;
+    transition: border-bottom  0.5s ease;
+}
+.search{
+    display: grid;
+    place-content: center;
+    margin: 50px 0 0 0;
+}
+.congratulations{
+    font-family: "Inter", sans-serif;
+    font-weight: bold;
+    text-align: center;
+    padding: 40px;
+    font-size: 60px;
+    color: rgb(245, 239, 239);
+}
+.hr{
+    text-decoration: none;
+    border: none;
+}
+.feli{
+    font-family: "Inter", sans-serif;
+    padding: 40px;
+    font-size: 40px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background: linear-gradient(90deg, rgb(46, 53, 150) 16%, rgb(61, 66, 212) 36%, rgb(117, 60, 221) 62%, rgba(69,42,195,1) 100%);
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}

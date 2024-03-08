@@ -1,0 +1,78 @@
+.item{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    background: linear-gradient(90deg, rgb(197, 201, 247) 16%, rgb(182, 189, 250) 36%, rgb(187, 188, 247) 62%, rgb(199, 188, 255) 100%);
+    width: 500px;
+    border-radius: 1rem;
+    padding: 8px;
+    transition: all 0.5s ease;
+    font-family: "Inter", sans-serif;
+}
+.item:hover{
+    width: 530px;
+    background: rgb(207, 196, 255);
+    background: linear-gradient(90deg, rgb(152, 184, 243) 16%, rgb(140, 150, 236) 36%, rgb(121, 123, 209) 62%, rgb(131, 114, 219) 100%);
+    transition: all 1s;   
+}   
+.box-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 34px;
+}
+.li{
+    display: flex;
+    justify-content: space-between;
+}
+.TodoItem-p{
+    font-family: "Inter", sans-serif;
+}
+.TodoItem-p--complete{
+    text-decoration: line-through;
+}
+.Icon{
+    cursor: pointer;
+    display: grid;
+    place-content: center;
+    height: 48px;
+    width: 48px;
+    font-size: 24px;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+.Icon-container-check{
+    position: absolute;
+    left: 700px;
+}
+.Icon-container-check--active{
+    color: #4caf50;
+}
+.Icon-container-delete{
+    position: absolute;
+    right: 690px;
+}
+.delete{
+    margin-top: -25px;
+}
+.complete{
+    margin-top: 5px;
+}
+.Icon-container-delete:hover{
+    color: red;
+}
+.Icon-svg{
+    width: 34px;
+    height: 34px;
+}
+
+.Icon-container-delete:hover .Icon-svg{
+    fill: red;
+    cursor: pointer;
+}
+.Icon-container-check:hover .Icon-svg{
+    fill: green;
+    cursor: pointer;
+}
